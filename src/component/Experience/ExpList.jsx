@@ -30,9 +30,9 @@ function ExpList(props) {
   return (
     <>
       {expList[0] ? (
-        <Container >
+        <Container>
           <Row className="card-list">
-          {expList[0].map((exp) => {
+            {expList[0].map((exp) => {
               return <ExpCard exp={exp}></ExpCard>;
             })}
           </Row>

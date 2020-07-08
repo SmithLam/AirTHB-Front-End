@@ -57,13 +57,13 @@ function Footer(props) {
                 </div>
                 <div className="footer-social-icon">
                   <span>Follow us</span>
-                  <a href="#">
+                  <a href="#deets">
                     <i className="fab fa-facebook-f facebook-bg" />
                   </a>
-                  <a href="#">
+                  <a href="#deets">
                     <i className="fab fa-twitter twitter-bg" />
                   </a>
-                  <a href="#">
+                  <a href="#deets">
                     <i className="fab fa-google-plus-g google-bg" />
                   </a>
                 </div>
@@ -76,34 +76,34 @@ function Footer(props) {
                 </div>
                 <ul>
                   <li>
-                    <a href="#">Home</a>
+                    <a href="#deets">Home</a>
                   </li>
                   <li>
-                    <a href="#">about</a>
+                    <a href="#deets">about</a>
                   </li>
                   <li>
-                    <a href="#">services</a>
+                    <a href="#deets">services</a>
                   </li>
                   <li>
-                    <a href="#">portfolio</a>
+                    <a href="#deets">portfolio</a>
                   </li>
                   <li>
-                    <a href="#">Contact</a>
+                    <a href="#deets">Contact</a>
                   </li>
                   <li>
-                    <a href="#">About us</a>
+                    <a href="#deets">About us</a>
                   </li>
                   <li>
-                    <a href="#">Our Services</a>
+                    <a href="#deets">Our Services</a>
                   </li>
                   <li>
-                    <a href="#">Expert Team</a>
+                    <a href="#deets">Expert Team</a>
                   </li>
                   <li>
-                    <a href="#">Contact us</a>
+                    <a href="#deets">Contact us</a>
                   </li>
                   <li>
-                    <a href="#">Latest News</a>
+                    <a href="#deets">Latest News</a>
                   </li>
                 </ul>
               </div>
@@ -147,19 +147,19 @@ function Footer(props) {
               <div className="footer-menu">
                 <ul>
                   <li>
-                    <a href="#">Home</a>
+                    <a href="#deets">Home</a>
                   </li>
                   <li>
-                    <a href="#">Terms</a>
+                    <a href="#deets">Terms</a>
                   </li>
                   <li>
-                    <a href="#">Privacy</a>
+                    <a href="#deets">Privacy</a>
                   </li>
                   <li>
-                    <a href="#">Policy</a>
+                    <a href="#deets">Policy</a>
                   </li>
                   <li>
-                    <a href="#">Contact</a>
+                    <a href="#deets">Contact</a>
                   </li>
                 </ul>
               </div>

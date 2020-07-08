@@ -33,6 +33,7 @@ export default function SingleExp() {
     let result = await data.data;
     setSingleExp(result.data);
   };
+  
   const getFilteredExp = async (id) => {
     tag[1](id);
     let res = await Axios.get(expListURL);

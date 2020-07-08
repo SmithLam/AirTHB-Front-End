@@ -58,7 +58,9 @@
   text-decoration: none !important;
   background-color: green !important;
 }
-body,
+body {
+  margin: 0 auto;
+}
 html {
   font-family: "Roboto Slab", serif;
   margin: 0;
@@ -75,7 +77,6 @@ html {
 .card--1 .card__img--hover {
   background-image: url("https://images.pexels.com/photos/45202/brownie-dessert-cake-sweet-45202.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
 }
-
 
 .card__like {
   width: 18px;
@@ -145,8 +146,7 @@ html {
   box-shadow: 0px 30px 18px -8px rgba(0, 0, 0, 0.1);
   transform: scale(1.1, 1.1);
 }
-.card:focus
-{
+.card:focus {
   outline: none !important;
 }
 
@@ -413,8 +413,6 @@ ul {
   color: #878787;
 }
 
-
-
 .MuiButton-containedPrimary {
   background-color: white !important;
   color: black !important;
@@ -574,8 +572,7 @@ p {
 a {
   color: black !important;
 }
-a:hover
-{
+a:hover {
   color: black !important;
   text-decoration: none !important;
 }
@@ -594,17 +591,13 @@ a:hover
   justify-content: center;
 }
 
-/* .square-fill .is-active, .square-fill a:first-of-type, .square-fill a:last-of-type{
-  color: blue;
-} */
-
-
-.col-md-3{
-padding: 0px !important;
-border-radius: 15px !important;
+.col-md-3 {
+  padding: 0px !important;
+  border-radius: 15px !important;
 }
 
-.card-list{
+.card-list {
   display: flex;
-  justify-content: space-evenly;
+  flex-direction: row;
+  justify-content: space-between;
 }
