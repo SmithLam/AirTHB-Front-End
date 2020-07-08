@@ -8,6 +8,19 @@ export default ({ children }) => {
     // các em đã vào nhà kho
     const [expList, setExpList] = useState(null)
     const [currentPage,setCurrentPage]=useState(1)
+    const [dataLength,setDataLength]=useState(1)
+    const [tag,setTag]=useState(null)
+    const [minPrice,setMinPrice]=useState(0);
+    const [maxPrice,setMaxPrice]=useState(100);
+   
+
+    
+    let backEndUrlExperienceList=`https://airthb-group6.herokuapp.com/experiences?price[$gt]=${minPrice}&price[$lt]=${maxPrice}&page=${currentPage}`
+    if(tag)
+    {
+         backEndUrlExperienceList=`https://airthb-group6.herokuapp.com/experiences?price[$gt]=${minPrice}&price[$lt]=${maxPrice}&page=${currentPage}&tags=${tag}`
+    }
+    
 
 
 
@@ -16,7 +29,12 @@ export default ({ children }) => {
 
     const store = {
         expList: [expList, setExpList],
-        currentPage:[currentPage,setCurrentPage]
+        currentPage:[currentPage,setCurrentPage],
+        dataLength:[dataLength,setDataLength],
+        expListURL:backEndUrlExperienceList,
+        minPrice:[minPrice,setMinPrice],
+        maxPrice:[maxPrice,setMaxPrice],
+        tag:[tag,setTag]
 
     };
 
